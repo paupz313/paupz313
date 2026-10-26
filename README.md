@@ -3,7 +3,7 @@
 I build small, complete things and get them shipped — a site, an app, a game, a
 physical object. Solo, end to end: product decisions, design, backend, deploys.
 
-Four recent ones, deliberately on four different stacks.
+A few recent ones, deliberately on different stacks.
 
 ### [lagalere](https://github.com/paupz313/lagalere) — *Quelle Galère !*
 A satirical public counter where French users file, browse and upvote their most
@@ -24,6 +24,14 @@ Same Morse engine three times — Python, Web Audio, and C on an ESP32 — porte
 symbol-for-symbol so the timing matches to the millisecond.
 
 `ESP32` `Arduino` `I2S audio` `Python` `Web Audio API`
+
+### [video-to-faq](https://github.com/paupz313/video-to-faq) — screen recording in, help-center article out
+Upload an MP4 of a product walkthrough to a Colab notebook and get back a
+publishable HTML article with GIFs cut automatically at the key steps, placed
+where they belong. Built for support teams who record a video for every feature
+and never find time to write the doc.
+
+`Python` `Colab` `Gemini` `ffmpeg`
 
 ### NoProblemo — running a shared family home *(private repo)*
 Mobile-first PWA. Arrival and closure checklists per house feature, a shared
